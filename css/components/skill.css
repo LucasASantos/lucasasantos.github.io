@@ -1,0 +1,52 @@
+.skill-wapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.skill{
+    display:flex;
+    align-items: center;
+    width: 430px;
+    margin-bottom: 20px;
+
+}
+
+.skill:nth-child(odd){
+    margin-right: 100px;
+}
+
+
+.skill-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+
+}
+
+.skill-desc {
+    font-family: inherit;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.skill-image{
+    width: 50px;
+}
+
+.skill-progress{
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid #000;
+    height: 20px;
+    width: 200px;
+}
+
+.skill-progress::-webkit-progress-bar, 
+.skill-progress::-moz-progress-bar {
+    background-color: #7C5E;
+}

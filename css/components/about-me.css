@@ -1,0 +1,24 @@
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.about-me.box{
+    height: 300px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.about-me.desc{
+
+}
+
+.about-me.image{
+    width: 300px;
+    height: 300px; 
+    object-fit: cover;
+    object-position: 30% 40%;
+    border-radius: 50% 50%;
+    margin-left: 30px;
+    
+}

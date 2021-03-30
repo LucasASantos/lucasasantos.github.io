@@ -1,0 +1,12 @@
+.section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgb(236, 10, 10);
+
+}
+
+
+
+.section.-skills{
+    background-color: red;
+}
